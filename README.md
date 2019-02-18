@@ -47,3 +47,5 @@ along with MC.  If not, see <https://www.gnu.org/licenses/>.
     * [Java Hamcrest](http://hamcrest.org/JavaHamcrest/)
     * [Open Test Alliance for the JVM](https://github.com/ota4j-team/opentest4j)
     * [SpotBugs](https://spotbugs.github.io/)
+* Framework:
+     * [Spring Boot](http://spring.io/projects/spring-boot)
