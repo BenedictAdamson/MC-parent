@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<!-- This is intended to be used as a parent POM -->
 	<groupId>uk.badamson.mc</groupId>
-	<artifactId>MC</artifactId>
+	<artifactId>MC-parent</artifactId>
 	<packaging>pom</packaging>
 	<version>1.0.2-SNAPSHOT</version>
 	<organization>
@@ -18,9 +18,9 @@
 		</license>
 	</licenses>
 	<scm>
-		<connection>scm:git:git@github.com:BenedictAdamson/MC.git</connection>
-		<developerConnection>scm:git:git@github.com:BenedictAdamson/MC.git</developerConnection>
-		<url>https://github.com/BenedictAdamson/MC</url>
+		<connection>scm:git:git@github.com:BenedictAdamson/MC-parent.git</connection>
+		<developerConnection>scm:git:git@github.com:BenedictAdamson/MC-parent.git</developerConnection>
+		<url>https://github.com/BenedictAdamson/MC-parent</url>
 	</scm>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
