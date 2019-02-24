@@ -31,8 +31,9 @@ along with MC.  If not, see <https://www.gnu.org/licenses/>.
 * Development environment:
     * [Eclipse IDE](https://www.eclipse.org/ide/)
     * [Jenkins Editor](https://github.com/de-jcup/eclipse-jenkins-editor)
+    * [Eclipse Cucumber Plugin](https://marketplace.eclipse.org/content/cucumber-eclipse-plugin)
     * [Eclipse Docker Tooling](https://marketplace.eclipse.org/content/eclipse-docker-tooling)
-    * [SpotBugs Eclipse plugin](https://marketplace.eclipse.org/content/spotbugs-eclipse-plugin)
+    * [SpotBugs Eclipse Plugin](https://marketplace.eclipse.org/content/spotbugs-eclipse-plugin)
 * Software configuration management:
      * [Git](https://git-scm.com/)
      * [GitHub](https://github.com)
