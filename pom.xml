@@ -183,6 +183,12 @@
 				<scope>test</scope>
 			</dependency>
 			<dependency>
+				<groupId>io.cucumber</groupId>
+				<artifactId>cucumber-spring</artifactId>
+				<version>${MC.cucumber.version}</version>
+				<scope>test</scope>
+			</dependency>
+			<dependency>
 				<!-- Import dependency management from Spring Boot -->
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-dependencies</artifactId>
