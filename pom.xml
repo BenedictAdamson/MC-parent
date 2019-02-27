@@ -189,6 +189,12 @@
 				<scope>test</scope>
 			</dependency>
 			<dependency>
+				<groupId>io.projectreactor</groupId>
+				<artifactId>reactor-test</artifactId>
+				<scope>test</scope>
+				<version>3.2.5.RELEASE</version>
+			</dependency>
+			<dependency>
 				<!-- Import dependency management from Spring Boot -->
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-dependencies</artifactId>
