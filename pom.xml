@@ -82,6 +82,10 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
 					<release>10</release>
+					<testIncludes>
+						<include>src/test/java/**/*.java</include>
+						<include>src/it/java/**/*.java</include>
+					</testIncludes>
 				</configuration>
 			</plugin>
 			<plugin>
