@@ -38,21 +38,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-failsafe-plugin</artifactId>
-					<version>3.0.0-M6</version>
-					<executions>
-						<execution>
-							<goals>
-								<goal>integration-test</goal>
-								<goal>verify</goal>
-							</goals>
-							<configuration>
-								<includes>
-									<include>**/*.java</include>
-								</includes>
-								<testSourceDirectory>src/it</testSourceDirectory>
-							</configuration>
-						</execution>
-					</executions>
+					<version>3.0.0-M3</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -140,6 +126,24 @@
 					<!-- Work around OpenJDK bug: -->
 					<useSystemClassLoader>false</useSystemClassLoader>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-failsafe-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>integration-test</goal>
+							<goal>verify</goal>
+						</goals>
+						<configuration>
+							<includes>
+								<include>**/*.java</include>
+							</includes>
+							<testSourceDirectory>src/it</testSourceDirectory>
+						</configuration>
+					</execution>
+				</executions>
 			</plugin>
 			<plugin>
 				<groupId>com.github.spotbugs</groupId>
