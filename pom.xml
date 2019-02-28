@@ -83,8 +83,7 @@
 				<configuration>
 					<release>10</release>
 					<testIncludes>
-						<include>src/test/java/**/*.java</include>
-						<include>src/it/java/**/*.java</include>
+						<include>**/*.java</include>
 					</testIncludes>
 				</configuration>
 			</plugin>
@@ -138,7 +137,6 @@
 					<execution>
 						<goals>
 							<goal>integration-test</goal>
-							<goal>verify</goal>
 						</goals>
 						<configuration>
 							<includes>
