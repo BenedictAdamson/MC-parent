@@ -38,15 +38,21 @@ along with MC.  If not, see <https://www.gnu.org/licenses/>.
      * [Git](https://git-scm.com/)
      * [GitHub](https://github.com)
 * Building:
-    * [Maven](https://maven.apache.org/)
-    * [SpotBugs Maven plugin](https://spotbugs.github.io/spotbugs-maven-plugin/index.html)
-    * [Jenkins](https://jenkins.io/)
     * [Docker](https://www.docker.com/)
+    * [Jenkins](https://jenkins.io/)
+    * [Maven](https://maven.apache.org/)
+        * [Spring Boot Maven Plugin](https://docs.spring.io/spring-boot/docs/2.1.3.RELEASE/maven-plugin/)
+        * [SpotBugs Maven Plugin](https://spotbugs.github.io/spotbugs-maven-plugin/index.html)
     * [Ubuntu 18.04](http://releases.ubuntu.com/18.04/)
 * Static analysis and testing:
+    * [Cucumber](https://docs.cucumber.io/cucumber/):
+        * [Cucumber JVM](https://docs.cucumber.io/installation/java/)
+        * [Cucumber-Spring](https://docs.cucumber.io/cucumber/state/#spring)
     * [JUnit 5](https://junit.org/junit5/)
     * [Java Hamcrest](http://hamcrest.org/JavaHamcrest/)
     * [Open Test Alliance for the JVM](https://github.com/ota4j-team/opentest4j)
     * [SpotBugs](https://spotbugs.github.io/)
-* Framework:
-     * [Spring Boot](http://spring.io/projects/spring-boot)
+* Frameworks:
+    * [Spring Boot](http://spring.io/projects/spring-boot)
+    * [Spring Framework](https://spring.io/projects/spring-framework)
+        * [Spring WebFlux](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html)
