@@ -140,12 +140,12 @@
 		<repository>
 			<id>MC.repo</id>
 			<name>MC Repository</name>
-			<url>http://localhost:9081/repository/maven-releases/</url>
+			<url>http://localhost:8081/repository/maven-releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>MC-SNAPSHOT.repo</id>
 			<name>MC Repository</name>
-			<url>http://localhost:9081/repository/maven-snapshots/</url>
+			<url>http://localhost:8081/repository/maven-snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	<dependencyManagement>
