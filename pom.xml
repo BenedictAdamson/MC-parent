@@ -3,6 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<!-- This is intended to be used as a parent POM -->
+	<!-- This POM declares two Maven repository servers, with IDs MC.repo and 
+		MC-SNAPSHOT.repo. Therefore if you use this POM to deploy artifacts, your 
+		settings.xml configuration file should contain credentials (in a servers/server 
+		element) for those servers. -->
 	<groupId>uk.badamson.mc</groupId>
 	<artifactId>MC-parent</artifactId>
 	<packaging>pom</packaging>
