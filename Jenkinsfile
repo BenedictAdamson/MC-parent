@@ -23,7 +23,11 @@
   * Jenkins plugins used:
   * Config File Provider
   *     - Should configure the file settings.xml with ID 'maven-settings' as the Maven settings file
-  * Warnings 5
+  *     - That settings.cml configuration should provide authentication credentials
+  *       (in server/servers elements) for the services with the following IDs:
+  *         - MC.repo: the Maven release repository, at localhost:8081 
+  *         - MC-SNAPSHOT.repo: the Maven SNAPSHOT repository, at localhost:8081 
+  * Warnings 5+
   */
  
 pipeline { 
