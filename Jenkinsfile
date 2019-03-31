@@ -37,6 +37,9 @@ pipeline {
             args '-v $HOME/.m2:/root/.m2 --network="host"'
         }
     }
+    triggers {
+        pollSCM('H */4 * * *')
+    }
     stages {
         stage('Build') { 
             steps {
