@@ -33,6 +33,7 @@ along with MC.  If not, see <https://www.gnu.org/licenses/>.
     * [Jenkins Editor](https://github.com/de-jcup/eclipse-jenkins-editor)
     * [Eclipse Cucumber Plugin](https://marketplace.eclipse.org/content/cucumber-eclipse-plugin)
     * [Eclipse Docker Tooling](https://marketplace.eclipse.org/content/eclipse-docker-tooling)
+    * [Eclipse Yaml Editor](https://marketplace.eclipse.org/content/yaml-editor)
     * [SpotBugs Eclipse Plugin](https://marketplace.eclipse.org/content/spotbugs-eclipse-plugin)
 * Software configuration management:
      * [Git](https://git-scm.com/)
