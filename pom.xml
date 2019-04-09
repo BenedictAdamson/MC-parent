@@ -7,11 +7,11 @@
 		release repository) and MC-SNAPSHOT.repo (the SNAPSHOT repository). Therefore 
 		if you use this POM to deploy artifacts, your settings.xml configuration 
 		file should contain credentials (in a servers/server element) for those servers. -->
-	<!-- This POM provides plugin management for dockerfile-maven-plugin. Using that plugin will 
-		require credentials (in a servers/server element) for any Docker registries 
-		you use, with an id equal to the DNS name of the registry server. If you 
-		use the (default) Docker Hub registry, you will need credentials for the 
-		server index.docker.io. -->
+	<!-- This POM provides plugin management for dockerfile-maven-plugin. Using 
+		that plugin will require credentials (in a servers/server element) for any 
+		Docker registries you use, with an id equal to the DNS name of the registry 
+		server. If you use the (default) Docker Hub registry, you will need credentials 
+		for the server index.docker.io. -->
 	<groupId>uk.badamson.mc</groupId>
 	<artifactId>MC-parent</artifactId>
 	<packaging>pom</packaging>
@@ -200,9 +200,9 @@
 				<version>3.1.12</version>
 			</dependency>
 			<dependency>
-				<groupId>net.jcip</groupId>
+				<groupId>org.icroco</groupId>
 				<artifactId>jcip-annotations</artifactId>
-				<version>1.0</version>
+				<version>1.1.0</version>
 			</dependency>
 			<dependency>
 				<groupId>org.hamcrest</groupId>
