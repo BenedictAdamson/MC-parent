@@ -7,7 +7,7 @@
 		release repository) and MC-SNAPSHOT.repo (the SNAPSHOT repository). Therefore 
 		if you use this POM to deploy artifacts, your settings.xml configuration 
 		file should contain credentials (in a servers/server element) for those servers. -->
-	<!-- This POM provides plugin management for XXXX. Using that plugin will 
+	<!-- This POM provides plugin management for dockerfile-maven-plugin. Using that plugin will 
 		require credentials (in a servers/server element) for any Docker registries 
 		you use, with an id equal to the DNS name of the registry server. If you 
 		use the (default) Docker Hub registry, you will need credentials for the 
