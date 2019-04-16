@@ -24,17 +24,17 @@ along with MC.  If not, see <https://www.gnu.org/licenses/>.
 
 ## Technologies Used
 
-* [Java 10](https://docs.oracle.com/javase/10/)
+* [Java 11](https://docs.oracle.com/javase/11/)
 * Annotations:
     * [JCIP annotations](http://jcip.net/annotations/doc/net/jcip/annotations/package-summary.html)
     * [SpotBugs annotations](https://javadoc.io/doc/com.github.spotbugs/spotbugs-annotations/3.1.8)
 * Development environment:
     * [Eclipse IDE](https://www.eclipse.org/ide/)
-    * [Jenkins Editor](https://github.com/de-jcup/eclipse-jenkins-editor)
-    * [Eclipse Cucumber Plugin](https://marketplace.eclipse.org/content/cucumber-eclipse-plugin)
     * [Eclipse Docker Tooling](https://marketplace.eclipse.org/content/eclipse-docker-tooling)
+    * [Eclipse Jenkins Editor](https://github.com/de-jcup/eclipse-jenkins-editor)
+    * [Eclipse Natural Plugin](http://marketplace.eclipse.org/content/natural)
+    * [Eclipse SpotBugs Plugin](https://marketplace.eclipse.org/content/spotbugs-eclipse-plugin)
     * [Eclipse Yaml Editor](https://marketplace.eclipse.org/content/yaml-editor)
-    * [SpotBugs Eclipse Plugin](https://marketplace.eclipse.org/content/spotbugs-eclipse-plugin)
 * Software configuration management:
      * [Git](https://git-scm.com/)
      * [GitHub](https://github.com)
