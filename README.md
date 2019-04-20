@@ -24,12 +24,15 @@ along with MC.  If not, see <https://www.gnu.org/licenses/>.
 
 ## Technologies Used
 
-* [Java 11](https://docs.oracle.com/javase/11/)
-* Annotations:
+* Languages:
+    * [Java 11](https://docs.oracle.com/javase/11/)
+    * [Typescript](https://docs.oracle.com/javase/11/)
+* Java Annotations:
     * [JCIP annotations](http://jcip.net/annotations/doc/net/jcip/annotations/package-summary.html)
     * [SpotBugs annotations](https://javadoc.io/doc/com.github.spotbugs/spotbugs-annotations/3.1.8)
 * Development environment:
     * [Eclipse IDE](https://www.eclipse.org/ide/)
+    * [Eclipse Angular Plugin](https://marketplace.eclipse.org/content/angular-ide)
     * [Eclipse Docker Tooling](https://marketplace.eclipse.org/content/eclipse-docker-tooling)
     * [Eclipse Jenkins Editor](https://github.com/de-jcup/eclipse-jenkins-editor)
     * [Eclipse Natural Plugin](http://marketplace.eclipse.org/content/natural)
@@ -50,11 +53,15 @@ along with MC.  If not, see <https://www.gnu.org/licenses/>.
     * [Cucumber](https://docs.cucumber.io/cucumber/):
         * [Cucumber JVM](https://docs.cucumber.io/installation/java/)
         * [Cucumber-Spring](https://docs.cucumber.io/cucumber/state/#spring)
+    * [Jasmine](https://jasmine.github.io/index.html)
     * [JUnit 5](https://junit.org/junit5/)
     * [Java Hamcrest](http://hamcrest.org/JavaHamcrest/)
+    * [Karma](https://karma-runner.github.io/latest/index.html)
     * [Open Test Alliance for the JVM](https://github.com/ota4j-team/opentest4j)
     * [SpotBugs](https://spotbugs.github.io/)
 * Frameworks:
+    * [Angular](https://angular.io/)
     * [Spring Boot](http://spring.io/projects/spring-boot)
     * [Spring Framework](https://spring.io/projects/spring-framework)
+        * [Spring Security](https://spring.io/projects/spring-security)
         * [Spring WebFlux](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html)
