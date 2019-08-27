@@ -15,7 +15,7 @@
 	<groupId>uk.badamson.mc</groupId>
 	<artifactId>MC-parent</artifactId>
 	<packaging>pom</packaging>
-	<version>1.5.1-SNAPSHOT</version>
+	<version>1.5.2-SNAPSHOT</version>
 	<organization>
 		<name>Benedict Adamson</name>
 	</organization>
@@ -180,7 +180,7 @@
 				<groupId>io.projectreactor</groupId>
 				<artifactId>reactor-test</artifactId>
 				<scope>test</scope>
-				<version>3.2.11.RELEASE</version> <!--  Should be compatible with spring-boot -->
+				<version>3.2.11.RELEASE</version> <!-- Should be compatible with spring-boot -->
 			</dependency>
 			<dependency>
 				<groupId>com.github.spotbugs</groupId>
