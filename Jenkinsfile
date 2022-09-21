@@ -36,7 +36,7 @@ pipeline {
     agent {
         dockerfile {
             filename 'Jenkins.Dockerfile'
-            additionalBuildArgs  '--build-arg JENKINSUID=`id -u jenkins` --build-arg JENKINSGID=`id -g jenkins` --build-arg DOCKERGID=`stat -c %g /var/run/docker.sock`'
+            additionalBuildArgs  '--build-arg JENKINSUID=`id -u jenkins` --build-arg JENKINSGID=`id -g jenkins`'
             args '-v $HOME:/home/jenkins -v /var/run/docker.sock:/var/run/docker.sock --network="host" -u jenkins:jenkins --group-add docker'
         }
     }

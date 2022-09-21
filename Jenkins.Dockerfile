@@ -23,7 +23,6 @@ FROM debian:11
 
 ARG JENKINSUID
 ARG JENKINSGID
-ARG DOCKERGID
 
 RUN apt-get -y update && apt-get -y install \
    maven \
@@ -32,7 +31,6 @@ RUN apt-get remove -y openjdk-11-jre-headless
 
 # Setup users and groups
 RUN groupadd -g ${JENKINSGID} jenkins
-RUN groupmod -g ${DOCKERGID} docker
-RUN useradd -c "Jenkins user" -g ${JENKINSGID} -G ${DOCKERGID} -M -N -u ${JENKINSUID} jenkins
+RUN useradd -c "Jenkins user" -g ${JENKINSGID} -M -N -u ${JENKINSUID} jenkins
 
 WORKDIR /home/jenkins/agent
