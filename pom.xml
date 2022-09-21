@@ -216,7 +216,8 @@
                 <groupId>org.junit</groupId>
                 <artifactId>junit-bom</artifactId>
                 <version>5.9.0</version>
-                <scope>import</scope>
+                <type>pom</type>
+                <scope>test</scope>
             </dependency>
             <dependency>
                 <groupId>org.mock-server</groupId>
@@ -235,7 +236,7 @@
                 <artifactId>spock-bom</artifactId>
                 <version>2.2-groovy-3.0</version>
                 <type>pom</type>
-                <scope>import</scope>
+                <scope>test</scope>
             </dependency>
             <dependency>
                 <!-- Import dependency management from Spring Boot -->
