@@ -37,7 +37,7 @@ pipeline {
         dockerfile {
             filename 'Jenkins.Dockerfile'
             additionalBuildArgs  '--build-arg JENKINSUID=`id -u jenkins` --build-arg JENKINSGID=`id -g jenkins`'
-            args '-v $HOME:/home/jenkins -v /var/run/docker.sock:/var/run/docker.sock --network="host" -u jenkins:jenkins --group-add docker'
+            args '-v $HOME:/home/jenkins -v /var/run/docker.sock:/var/run/docker.sock --network="host" -u jenkins:jenkins'
         }
     }
     triggers {
