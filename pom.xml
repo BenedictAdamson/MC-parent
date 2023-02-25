@@ -35,7 +35,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <MC.node.version>v16.15.0</MC.node.version>
         <MC.npm.version>8.5.5</MC.npm.version>
-        <MC.spring-boot.version>2.7.3</MC.spring-boot.version>
+        <MC.spring-boot.version>2.7.9</MC.spring-boot.version>
     </properties>
     <build>
         <pluginManagement>
