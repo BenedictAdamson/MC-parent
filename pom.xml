@@ -35,7 +35,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <MC.node.version>v16.15.0</MC.node.version>
         <MC.npm.version>8.5.5</MC.npm.version>
-        <MC.spring-boot.version>2.7.9</MC.spring-boot.version>
+        <MC.spring-boot.version>2.7.10</MC.spring-boot.version>
         <repository.releases.url>http://thegn:8081/repository/maven-releases/</repository.releases.url>
         <repository.snapshot.url>http://thegn:8081/repository/maven-snapshots/</repository.snapshot.url>
     </properties>
@@ -175,7 +175,7 @@
             <dependency>
                 <groupId>ch.qos.logback</groupId>
                 <artifactId>logback-classic</artifactId>
-                <version>1.2.11</version>
+                <version>1.2.12</version>
             </dependency>
             <dependency>
                 <groupId>de.flapdoodle.embed</groupId>
@@ -204,7 +204,7 @@
             <dependency>
                 <groupId>org.codehaus.groovy</groupId>
                 <artifactId>groovy-all</artifactId>
-                <version>3.0.15</version>
+                <version>3.0.17</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -241,7 +241,6 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
-                <!-- Import dependency management from Spring Boot -->
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
                 <version>${MC.spring-boot.version}</version>
@@ -258,7 +257,7 @@
             <dependency>
                 <groupId>uk.badamson</groupId>
                 <artifactId>DBC-assertions</artifactId>
-                <version>3.0.2</version>
+                <version>3.0.3</version>
                 <scope>test</scope>
             </dependency>
         </dependencies>
