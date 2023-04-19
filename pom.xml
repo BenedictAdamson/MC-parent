@@ -3,8 +3,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <!-- This is intended to be used as a parent POM -->
-    <!-- This POM declares two Maven repository servers, with IDs MC.repo (the
-        release repository) and MC-SNAPSHOT.repo (the SNAPSHOT repository). Therefore,
+    <!-- This POM declares two Maven repository servers, with IDs releases.repo (the
+        release repository) and snapshot.repo (the SNAPSHOT repository). Therefore,
         if you use this POM to deploy artifacts, your settings.xml configuration
         file should contain credentials (in a servers/server element) for those servers. -->
     <!-- This POM provides plugin management for docker-maven-plugin.
@@ -36,6 +36,8 @@
         <MC.node.version>v16.15.0</MC.node.version>
         <MC.npm.version>8.5.5</MC.npm.version>
         <MC.spring-boot.version>2.7.9</MC.spring-boot.version>
+        <repository.releases.url>http://thegn:8081/repository/maven-releases/</repository.releases.url>
+        <repository.snapshot.url>http://thegn:8081/repository/maven-snapshots/</repository.snapshot.url>
     </properties>
     <build>
         <pluginManagement>
@@ -158,14 +160,14 @@
     </build>
     <distributionManagement>
         <repository>
-            <id>local.repo</id>
+            <id>releases.repo</id>
             <name>MC Repository</name>
-            <url>http://weorc:8081/repository/maven-releases/</url>
+            <url>${repository.releases.url}</url>
         </repository>
         <snapshotRepository>
-            <id>local-SNAPSHOT.repo</id>
-            <name>MC Repository</name>
-            <url>http://weorc:8081/repository/maven-snapshots/</url>
+            <id>snapshot.repo</id>
+            <name>MC SNAPSHOT Repository</name>
+            <url>${repository.snapshot.url}</url>
         </snapshotRepository>
     </distributionManagement>
     <dependencyManagement>
